@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="gymer.png" />
+      <span>Divyansh Gym</span>
+    </div>
+    <div class="container">
+      <h2>Enquiry Form</h2>
+      <form action="https://formspree.io/f/mwkjnzrl" method="POST" id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Age:</label>
+        <input type="text" id="email" name="Age" required />
+
+        <label for="message">Sex:</label>
+        <input type="text" id="message" name="Sex" required />
+
+        <label for="message">Height in cm:</label>
+        <input type="text" id="message" name="Height" required />
+        <label for="message">Weight in Kg:</label>
+        <input type="text" id="message" name="weight" required />
+
+        <label>Your usual dite schedule</label>
+        <textarea
+          name="about meals"
+          placeholder=" write down here about your meals which you take in a day"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
